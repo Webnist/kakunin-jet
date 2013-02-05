@@ -3,7 +3,8 @@
 	top:300px;
 	z-index:0;
 	height:0;
-	width:910px;
+	width: auto;
+	max-width:910px;
 	margin:0 auto;
 	left: -72px;
 }
