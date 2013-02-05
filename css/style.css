@@ -17,32 +17,63 @@
 	position:absolute;
 }
 .home div.kakunin .kakunin-one {
+	-moz-animation-name:kakunin-one;
 	-webkit-animation-name:kakunin-one;
+	-moz-animation-duration:3s;
 	-webkit-animation-duration:3s;
+	-moz-animation-iteration-count:1;
 	-webkit-animation-iteration-count:1;
+	-moz-animation-timing-function:ease-in;
 	-webkit-animation-timing-function:ease-in;
+	-moz-animation-delay:3s;
 	-webkit-animation-delay:3s;
+	-moz-transform:scale(0.7);
 	-webkit-transform:scale(0.7);
 	opacity:.8;
 }
 
 .home div.kakunin .kakunin-two {
+	-moz-animation-name:kakunin-two;
 	-webkit-animation-name:kakunin-two;
+	-moz-animation-duration:3s;
 	-webkit-animation-duration:3s;
+	-moz-animation-iteration-count:1;
 	-webkit-animation-iteration-count:1;
+	-moz-animation-timing-function:ease-in;
 	-webkit-animation-timing-function:ease-in;
+	-moz-animation-delay:5s;
 	-webkit-animation-delay:5s;
+	-moz-transform:scale(0.5);
 	-webkit-transform:scale(0.5);
 	opacity:.7;
 }
 
 .home div.kakunin .kakunin-three {
+	-moz-animation-name:kakunin-three;
 	-webkit-animation-name:kakunin-three;
+	-moz-animation-duration:2.5s;
 	-webkit-animation-duration:2.5s;
+	-moz-animation-iteration-count:1;
 	-webkit-animation-iteration-count:1;
+	-moz-animation-timing-function:ease-in;
 	-webkit-animation-timing-function:ease-in;
+	-moz-animation-delay:7s;
 	-webkit-animation-delay:7s;
+	-moz-transform:scale(0.7);
 	-webkit-transform:scale(0.7);
+}
+
+@-moz-keyframes kakunin-one {
+	from {
+		left:380px;
+		bottom:0;
+	}
+	
+	to {
+		bottom:480px;
+		left:50px;
+		-moz-transform:scale(0.7) rotate(10deg);
+	}
 }
 
 @-webkit-keyframes kakunin-one {
@@ -58,6 +89,18 @@
 	}
 }
 
+@-moz-keyframes kakunin-two {
+	from {
+		left:730px;
+		bottom:0;
+	}
+	
+	to {
+		bottom:510px;
+		left:300px;
+		-moz-transform:scale(0.5) rotate(-10deg);
+	}
+}
 @-webkit-keyframes kakunin-two {
 	from {
 		left:730px;
@@ -68,6 +111,19 @@
 		bottom:510px;
 		left:300px;
 		-webkit-transform:scale(0.5) rotate(-10deg);
+	}
+}
+
+@-moz-keyframes kakunin-three {
+	from {
+		left:800px;
+		bottom:50px;
+	}
+	
+	to {
+		bottom:540px;
+		left:-60px;
+		-moz-transform:scale(0.7) rotate(10deg);
 	}
 }
 
@@ -83,4 +139,3 @@
 		-webkit-transform:scale(0.7) rotate(10deg);
 	}
 }
-
