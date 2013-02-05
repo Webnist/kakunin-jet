@@ -1,0 +1,85 @@
+.home div.kakunin {
+	position:absolute;
+	top:300px;
+	z-index:0;
+	height:0;
+	width:910px;
+	margin:0 auto;
+	left: -72px;
+}
+
+.home div.kakunin div {
+	height:72px;
+	width:79px;
+	margin:0 auto;
+	background:url(../images/kakunin.png) bottom center no-repeat;
+	position:absolute;
+}
+.home div.kakunin .kakunin-one {
+	-webkit-animation-name:kakunin-one;
+	-webkit-animation-duration:3s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-timing-function:ease-in;
+	-webkit-animation-delay:3s;
+	-webkit-transform:scale(0.7);
+	opacity:.8;
+}
+
+.home div.kakunin .kakunin-two {
+	-webkit-animation-name:kakunin-two;
+	-webkit-animation-duration:3s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-timing-function:ease-in;
+	-webkit-animation-delay:5s;
+	-webkit-transform:scale(0.5);
+	opacity:.7;
+}
+
+.home div.kakunin .kakunin-three {
+	-webkit-animation-name:kakunin-three;
+	-webkit-animation-duration:2.5s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-timing-function:ease-in;
+	-webkit-animation-delay:7s;
+	-webkit-transform:scale(0.7);
+}
+
+@-webkit-keyframes kakunin-one {
+	from {
+		left:380px;
+		bottom:0;
+	}
+	
+	to {
+		bottom:480px;
+		left:50px;
+		-webkit-transform:scale(0.7) rotate(10deg);
+	}
+}
+
+@-webkit-keyframes kakunin-two {
+	from {
+		left:730px;
+		bottom:0;
+	}
+	
+	to {
+		bottom:510px;
+		left:300px;
+		-webkit-transform:scale(0.5) rotate(-10deg);
+	}
+}
+
+@-webkit-keyframes kakunin-three {
+	from {
+		left:800px;
+		bottom:50px;
+	}
+	
+	to {
+		bottom:540px;
+		left:-60px;
+		-webkit-transform:scale(0.7) rotate(10deg);
+	}
+}
+
