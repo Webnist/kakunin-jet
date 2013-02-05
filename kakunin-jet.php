@@ -25,11 +25,13 @@ function add_kakunin_style() {
 
 add_action( 'wp_footer', 'kakunin_content' );
 function kakunin_content() {
-	echo <<< EOT
+if ( !is_admin() && ( is_home() || is_front_page() ) ) {
+echo <<< EOT
 	<div class="kakunin">
 		<div class="kakunin-one"></div>
 		<div class="kakunin-two"></div>
 		<div class="kakunin-three"></div>
 	</div>
 EOT;
+}
 }
