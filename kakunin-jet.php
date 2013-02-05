@@ -3,7 +3,7 @@
   Plugin Name: Kakunin jet
   Plugin URI: http://plugins.webnist.net/
   Description:
-  Version: 0.7.1.0
+  Version: 0.7.1.2
   Author: Webnist
   Author URI: http://webni.st
   License: GPLv2 or later
